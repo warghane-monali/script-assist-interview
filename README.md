@@ -1,4 +1,5 @@
 🚀 Script Assist - React Developer Technical Exercise
+
 📌 Overview
 This project fulfills the requirements of the Script Assist technical assessment using a fully integrated React frontend and a custom Node.js backend API built within the same project directory. The app showcases authentication, dynamic routing, data presentation, and enrichment using React, Zustand, Mantine UI, React Query, and React Router.
 
