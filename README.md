@@ -88,7 +88,7 @@ Pages can be shared/bookmarked directly and still show full data upon refresh (t
 
 1. Clone the Repository
 
-git clone https://github.com/your-username/script-assist-project.git
+git clone https://github.com/warghane-monali/script-assist-interview.git
 cd script-assist-interview
 
 2. We need to run backend first
