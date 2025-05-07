@@ -1,7 +1,10 @@
-// src/components/Layout/MenuBar.jsx
-import React from 'react';
 
-const MenuBar = ({ title }) => {
+interface MenuBarProps {
+  title: string;
+}
+
+const MenuBar: React.FC<MenuBarProps> = ({ title }) => {
+
   return (
     <div
       style={{

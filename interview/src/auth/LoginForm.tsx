@@ -92,7 +92,7 @@ function LoginForm() {
         <form onSubmit={form.onSubmit(handleSubmit)}>
           <TextInput
             label="Username"
-            placeholder="username"
+            placeholder="Username"
             labelProps={{ style: { color: 'black' } }}
             {...form.getInputProps('userName')}
           />

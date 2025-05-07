@@ -1,11 +1,20 @@
-const ErrorBoundry = () => {
-    return (
-      <div className='h-screen w-screen place-items-center place-content-center'>
-              <h1 className='text-4xl'>"Sorry, Its an error"</h1>
-              <p className='text-2xl mt-4'>You hit an ErrorBoundry 😅</p>
-         
-      </div>
-    )
-  }
-   
-  export default ErrorBoundry;
+import { Center, Container, Title, Text } from '@mantine/core';
+
+const ErrorBoundary = () => {
+  return (
+    <Container size="md" style={{ height: '100vh' }}>
+      <Center style={{ height: '100%' }}>
+        <div style={{ textAlign: 'center' }}>
+          <Title order={1} color="red">
+            Sorry, it's an error
+          </Title>
+          <Text size="xl" mt="md">
+            You hit an Error Boundary 😅
+          </Text>
+        </div>
+      </Center>
+    </Container>
+  );
+};
+
+export default ErrorBoundary;
